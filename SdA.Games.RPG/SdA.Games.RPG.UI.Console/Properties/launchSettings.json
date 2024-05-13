@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SdA.Games.RPG.UI.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "age=18"
+    }
+  }
+}
