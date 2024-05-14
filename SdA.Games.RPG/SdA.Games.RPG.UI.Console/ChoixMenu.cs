@@ -2,10 +2,10 @@
 {
     public enum ChoixMenu
     {
-        SaisieProfil = 1,
+        SaisieProfil = 0,
         NouvellePartie,
         PartieExistante,
-        ChargerPartie,
+        ChargerPartie = 10,
         Options,
         Sortie = -100
     }

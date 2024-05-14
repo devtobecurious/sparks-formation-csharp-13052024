@@ -90,28 +90,39 @@ void AfficherMenu()
     //string[] menuItems = new string[6];
     //menuItems[0] = "0. Saisie profil";
 
-    ChoixMenu choixMenu = ChoixMenu.NouvellePartie;
+    #region Premiere façon de faire avec un tableau
+    //ChoixMenu choixMenu = ChoixMenu.NouvellePartie;
 
-    string[] menuItems = new string[]
-    {
-        "Saisie profil",
-        "Démarrer la partie",
-        "Reprendre la partie en cours",
-        "Charger une partie existante",
-        "Options",
-        "Quitter"
-    };
+    //string[] menuItems = new string[]
+    //{
+    //    "Saisie profil",
+    //    "Démarrer la partie",
+    //    "Reprendre la partie en cours",
+    //    "Charger une partie existante",
+    //    "Options",
+    //    "Quitter"
+    //};
 
-    Console.WriteLine("MENU");
-    for (int i = 0; i < menuItems.Length; i++)
+    //Console.WriteLine("MENU");
+    //for (int i = 0; i < menuItems.Length; i++)
+    //{
+    //    AfficherLigneMenu(i, menuItems[i]);
+    //}
+    #endregion
+
+    var tableauItems = Enum.GetNames<ChoixMenu>();
+    foreach (var keyInEnum in tableauItems)
     {
-        AfficherLigneMenu(i, menuItems[i]);
+        var value = (ChoixMenu)Enum.Parse(typeof(ChoixMenu), keyInEnum);
+        Console.WriteLine("{0}. {1}", (int)value, keyInEnum);
     }
+
+    ChoixAction();
 }
 
-void ChoixItem()
+void ChoixAction()
 {
-    ChoixMenu choix = ChoixMenu.Options;
+    ChoixMenu choix = (default); // Ici, ça sera SaisieProfil
 
     switch (choix)
     {
