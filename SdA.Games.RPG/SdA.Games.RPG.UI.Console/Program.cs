@@ -1,6 +1,7 @@
 ﻿// je suis dans la méthode static void Main
 
 // récupère le premier argument passé à ma commande exe
+//using SdA.Games.RPG.Core.Models.Characters;
 using SdA.Games.RPG.UI.Console;
 using System.Globalization;
 
@@ -44,7 +45,8 @@ SaisirProfil();
 #region Coeur d'application
 void SaisirProfil()
 {
-    VerifierAgeJoueur();
+    Player player = new Player("Hello");
+    player.Age = VerifierAgeJoueur();
 }
 
 DateTime DemanderDateNaissance()
@@ -67,7 +69,7 @@ DateTime DemanderDateNaissance()
     return dateReel;
 }
 
-void VerifierAgeJoueur()
+int VerifierAgeJoueur()
 {
     const int AgeRequis = 13;
     // DateOnly
@@ -83,6 +85,8 @@ void VerifierAgeJoueur()
         Console.WriteLine("Tu n'as pas l'âge requis, petit coquin ;)");
         Environment.Exit(0);
     }
+
+    return age;
 }
 
 void AfficherMenu()
