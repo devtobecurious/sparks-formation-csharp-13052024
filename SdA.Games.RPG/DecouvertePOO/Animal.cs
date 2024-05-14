@@ -114,7 +114,7 @@
     #endregion
 
     #region Avec héritage
-    internal class Animal
+    internal abstract class Animal
     {
         #region Attributs
         private string prenom;
@@ -144,7 +144,7 @@
             Console.WriteLine("{0}, Miam c'est bon {1}", this.Prenom, nourriture);
         }
 
-        public void Dormir(params string[] prenomMoutons) // le tableau est par défaut à vide, non null
+        public virtual void Dormir(params string[] prenomMoutons) // le tableau est par défaut à vide, non null
         {
             Console.WriteLine("{0} je compte les moutons", this.Prenom);
             for (int i = 0; i < prenomMoutons.Length; i++)
@@ -152,6 +152,8 @@
                 Console.WriteLine("Oh un mouton : {0}", prenomMoutons[i]);
             }
         }
+
+        public abstract void SeDeplacer();
 
         /// <summary>
         /// Mange N fois

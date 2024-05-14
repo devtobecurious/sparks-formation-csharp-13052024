@@ -37,7 +37,23 @@ lion.Dormir();
 lion.Rugir();
 
 
-Animal a = new Animal("AA");
+Perroquet perr = new Perroquet("Coco");
+// perr.Dormir();
+
+// Animal a = new Animal("AA");
+Animal lion1 = new Lion("Simba");
+//lion1.Dormir();
+
+DormirTousLesAnimaux(lion1, perr, new Lion("Nala"), new Tigre("Sher khan", 300));
+
+void DormirTousLesAnimaux(params Animal[] animaux)
+{
+    foreach (var item in animaux)
+    {
+        item.Dormir();
+        item.SeDeplacer();
+    }
+}
 #endregion
 
 void ModifierPrenom(Animal unAnimal) // On récupére la copie du contenu de la variable passé quand elle est appelée, et donc on a la référence de l'appelant
