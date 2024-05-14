@@ -121,16 +121,17 @@
         #endregion
 
         #region Constructors
-        public Animal(string prenom) : this(prenom, 100)
+        public Animal(string prenom) : this(prenom, 100, "")
         {
             // this.Prenom = prenom;
         }
 
-        public Animal(string prenom, int taille)
+        public Animal(string prenom, int taille, string couleurPelage)
         {
             Console.WriteLine("Je me construis");
             this.Prenom = prenom;
             this.Taille = taille;
+            this.CouleurPelage = couleurPelage;
         }
         #endregion
 
@@ -141,6 +142,7 @@
         /// <param name="nourriture"></param>
         public void Manger(int duration, string nourriture = "Bamboo", string lieu = "france")
         {
+            // this.CouleurPelage = "";
             Console.WriteLine("{0}, Miam c'est bon {1}", this.Prenom, nourriture);
         }
 
@@ -194,6 +196,8 @@
 
         // Ici le get et le set sont privés
         private int Coeur { get; set; }
+
+        public string CouleurPelage { get; init; } // Modifiable uniquement durant la construction
         #endregion
     }
     #endregion
