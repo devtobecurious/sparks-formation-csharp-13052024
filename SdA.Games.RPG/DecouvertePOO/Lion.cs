@@ -23,7 +23,7 @@
 
         public override void SeDeplacer()
         {
-            throw new NotImplementedException();
+
         }
         #endregion
     }

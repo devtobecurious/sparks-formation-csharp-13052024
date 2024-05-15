@@ -56,6 +56,18 @@ void DormirTousLesAnimaux(params Animal[] animaux)
 }
 #endregion
 
+#region Utilisation Interfaces
+FaireVoler(new Perroquet("Coco"), new ChauveSouris("Bruce"), new Leia());
+
+void FaireVoler(params IQuiPeutVoler[] etresQuiVolent)
+{
+    foreach (var item in etresQuiVolent)
+    {
+        item.Voler();
+    }
+}
+#endregion
+
 void ModifierPrenom(Animal unAnimal) // On récupére la copie du contenu de la variable passé quand elle est appelée, et donc on a la référence de l'appelant
 {
     Console.WriteLine("Le prénom ?");

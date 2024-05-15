@@ -11,11 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OldConsole", "OldConsole\Ol
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apprentissages", "Apprentissages", "{E8DAB8A7-3B01-49FE-9E3F-C80904215D90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouvertePOO", "DecouvertePOO\DecouvertePOO.csproj", "{CB005D29-7680-4582-B690-5096E8FD4796}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecouvertePOO", "DecouvertePOO\DecouvertePOO.csproj", "{CB005D29-7680-4582-B690-5096E8FD4796}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{C7203BBE-AC2D-4070-B4A9-3C831B09B46D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.RPG.Core.Models", "SdA.Games.RPG.Core.Models\SdA.Games.RPG.Core.Models.csproj", "{71D3B6A0-9366-4477-8713-5B3D5F1C5172}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.RPG.Core.Models", "SdA.Games.RPG.Core.Models\SdA.Games.RPG.Core.Models.csproj", "{71D3B6A0-9366-4477-8713-5B3D5F1C5172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.RPG.Core.GamePlays", "SdA.Games.RPG.Core.GamePlays\SdA.Games.RPG.Core.GamePlays.csproj", "{66A12C25-4A02-4D65-8570-46C6EC8DA5A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests et essais", "Tests et essais", "{B145FCFD-3C64-4D8A-8A9C-DEC4FF1913AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePlays.Tests.Combats.Consoles.UI", "GamePlays.Tests.Combats.Consoles.UI\GamePlays.Tests.Combats.Consoles.UI.csproj", "{0C5AD617-B385-452D-9199-522D716E432F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,14 @@ Global
 		{71D3B6A0-9366-4477-8713-5B3D5F1C5172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71D3B6A0-9366-4477-8713-5B3D5F1C5172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71D3B6A0-9366-4477-8713-5B3D5F1C5172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A12C25-4A02-4D65-8570-46C6EC8DA5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A12C25-4A02-4D65-8570-46C6EC8DA5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A12C25-4A02-4D65-8570-46C6EC8DA5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A12C25-4A02-4D65-8570-46C6EC8DA5A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C5AD617-B385-452D-9199-522D716E432F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C5AD617-B385-452D-9199-522D716E432F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C5AD617-B385-452D-9199-522D716E432F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C5AD617-B385-452D-9199-522D716E432F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +61,8 @@ Global
 		{0818B16B-A8EE-4687-8B1D-B7FE29AD7B24} = {1D6B0C58-D7CA-4040-8C8A-891DC0736BCB}
 		{CB005D29-7680-4582-B690-5096E8FD4796} = {E8DAB8A7-3B01-49FE-9E3F-C80904215D90}
 		{71D3B6A0-9366-4477-8713-5B3D5F1C5172} = {C7203BBE-AC2D-4070-B4A9-3C831B09B46D}
+		{66A12C25-4A02-4D65-8570-46C6EC8DA5A7} = {C7203BBE-AC2D-4070-B4A9-3C831B09B46D}
+		{0C5AD617-B385-452D-9199-522D716E432F} = {B145FCFD-3C64-4D8A-8A9C-DEC4FF1913AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9CB88C45-069F-474E-8C20-EF388ABC85EC}
