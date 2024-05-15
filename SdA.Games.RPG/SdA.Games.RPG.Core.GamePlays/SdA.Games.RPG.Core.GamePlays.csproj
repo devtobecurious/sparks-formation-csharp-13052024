@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\SdA.Games.RPG.Core.Models\SdA.Games.RPG.Core.Models.csproj" />
-  </ItemGroup>
-
 </Project>

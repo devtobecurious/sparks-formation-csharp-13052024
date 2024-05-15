@@ -1,6 +1,4 @@
-﻿using SdA.Games.RPG.Core.Models.Characters;
-
-namespace SdA.Games.RPG.Core.GamePlays;
+﻿namespace SdA.Games.RPG.Core.GamePlays;
 
 /// <summary>
 /// Classe parente de tous les types de combat possible
@@ -12,6 +10,6 @@ public abstract class BaseCombat
     /// Lancet le combat, selon les règles du gameplay souhaité
     /// </summary>
     /// <returns>Retourne le gagnant</returns>
-    public abstract Personnage Lancer(Personnage attaquant1, Personnage attaquant2);
+    public abstract IAttaquant Lancer(IAttaquant attaquant1, IAttaquant attaquant2);
     #endregion
 }

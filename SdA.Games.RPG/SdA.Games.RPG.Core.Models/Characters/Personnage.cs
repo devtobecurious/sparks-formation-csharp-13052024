@@ -1,9 +1,11 @@
-﻿namespace SdA.Games.RPG.Core.Models.Characters
+﻿using SdA.Games.RPG.Core.GamePlays;
+
+namespace SdA.Games.RPG.Core.Models.Characters
 {
     /// <summary>
     /// 
     /// </summary>
-    public class Personnage
+    public class Personnage : IAttaquant
     {
         #region Statics
         public static int __NBInstances = 0;
@@ -38,10 +40,10 @@
         /// <summary>
         /// 
         /// </summary>
-        public void Attaquer(Personnage personnage)
+        public void Attaquer(IAttaquant personnage)
         {
             // Guardien de ma méthode
-            if (personnage.Prenom == this.Prenom)
+            if (this.EtreMemePersonne(personnage))
             {
                 return;
             }
@@ -54,6 +56,13 @@
         public override string ToString()
         {
             return $"{this.Prenom} / Vie : {this.PointDeVie}";
+        }
+
+        public bool EtreMemePersonne(IAttaquant attaquant)
+        {
+            var resultPerso = (attaquant as Personnage); // le as tente de convertir et s'il n'y arrive pas ça sera null
+
+            return resultPerso != null && resultPerso.Prenom == this.Prenom;
         }
         #endregion
 

@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SdA.Games.RPG.Core.GamePlays\SdA.Games.RPG.Core.GamePlays.csproj" />
+    <ProjectReference Include="..\SdA.Games.RPG.Core.Models\SdA.Games.RPG.Core.Models.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SdA.Games.RPG.Core.GamePlays\SdA.Games.RPG.Core.GamePlays.csproj" />
+  </ItemGroup>
+
 </Project>

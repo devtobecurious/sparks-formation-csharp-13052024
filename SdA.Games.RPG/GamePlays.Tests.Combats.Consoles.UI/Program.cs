@@ -1,4 +1,5 @@
-﻿using SdA.Games.RPG.Core.Models.Characters;
+﻿
+using SdA.Games.RPG.Core.Models.Characters;
 
 BaseCombat combat = new DeathMatchCombat();
 
@@ -8,7 +9,7 @@ DemarrerCombat(combat);
 void DemarrerCombat(BaseCombat combat)
 {
     var perso1 = new Personnage("Aragorn");
-    var perso2 = new Personnage("Sauron");
+    var perso2 = new Orc();
     var gagnant = combat.Lancer(perso1, perso2);
 
     Console.WriteLine("Le gagnant de ce match est {0}", gagnant);
