@@ -2,7 +2,7 @@
 {
     internal class Tigre : Animal
     {
-        public Tigre(string prenom, int taille) : base(prenom, taille)
+        public Tigre(string prenom, int taille) : base(prenom, taille, "orange")
         {
         }
 
