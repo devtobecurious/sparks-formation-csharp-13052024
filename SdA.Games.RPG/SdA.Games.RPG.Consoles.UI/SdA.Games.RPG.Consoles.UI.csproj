@@ -5,25 +5,11 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
-	<!--<TreatWarningsAsErrors>true</TreatWarningsAsErrors>-->
   </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);RELEASE</DefineConstants>
-  </PropertyGroup>
-
-  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="dotnet -h" />
-  </Target>
 
   <ItemGroup>
     <ProjectReference Include="..\SdA.Games.RPG.Core.Models\SdA.Games.RPG.Core.Models.csproj" />
     <ProjectReference Include="..\SdA.Games.RPG.Core.Presentations\SdA.Games.RPG.Core.Presentations.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Using Include="SdA.Games.RPG.Core.Models.Characters" />
   </ItemGroup>
 
 </Project>

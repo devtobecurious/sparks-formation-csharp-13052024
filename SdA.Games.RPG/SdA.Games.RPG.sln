@@ -17,17 +17,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{C7203BBE-A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.RPG.Core.Models", "SdA.Games.RPG.Core.Models\SdA.Games.RPG.Core.Models.csproj", "{71D3B6A0-9366-4477-8713-5B3D5F1C5172}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.RPG.Core.GamePlays", "SdA.Games.RPG.Core.GamePlays\SdA.Games.RPG.Core.GamePlays.csproj", "{66A12C25-4A02-4D65-8570-46C6EC8DA5A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.RPG.Core.GamePlays", "SdA.Games.RPG.Core.GamePlays\SdA.Games.RPG.Core.GamePlays.csproj", "{66A12C25-4A02-4D65-8570-46C6EC8DA5A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests et essais", "Tests et essais", "{B145FCFD-3C64-4D8A-8A9C-DEC4FF1913AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePlays.Tests.Combats.Consoles.UI", "GamePlays.Tests.Combats.Consoles.UI\GamePlays.Tests.Combats.Consoles.UI.csproj", "{0C5AD617-B385-452D-9199-522D716E432F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamePlays.Tests.Combats.Consoles.UI", "GamePlays.Tests.Combats.Consoles.UI\GamePlays.Tests.Combats.Consoles.UI.csproj", "{0C5AD617-B385-452D-9199-522D716E432F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouverteDelegues", "DecouverteDelegues\DecouverteDelegues.csproj", "{EF6E275F-A911-4F7E-813F-E21525550813}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecouverteDelegues", "DecouverteDelegues\DecouverteDelegues.csproj", "{EF6E275F-A911-4F7E-813F-E21525550813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculTVA", "CalculTVA\CalculTVA.csproj", "{9A826779-1BC1-4EEE-B3A9-55A96F5C05E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculTVA", "CalculTVA\CalculTVA.csproj", "{9A826779-1BC1-4EEE-B3A9-55A96F5C05E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComptabiliteEssai", "ComptabiliteEssai\ComptabiliteEssai.csproj", "{FEEC6ABF-BF7C-4BD2-B691-C348A7B25E28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComptabiliteEssai", "ComptabiliteEssai\ComptabiliteEssai.csproj", "{FEEC6ABF-BF7C-4BD2-B691-C348A7B25E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.RPG.Core.Presentations", "SdA.Games.RPG.Core.Presentations\SdA.Games.RPG.Core.Presentations.csproj", "{15FD10A3-2D7E-49C4-ACC9-F90CFFB48281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.RPG.Tests", "SdA.Games.RPG.Tests\SdA.Games.RPG.Tests.csproj", "{02300A8A-9FDF-4F22-894E-B0AF40FFDF1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.RPG.Consoles.UI", "SdA.Games.RPG.Consoles.UI\SdA.Games.RPG.Consoles.UI.csproj", "{C0ECF49E-F638-4729-BBF0-9AA21FF36FE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +77,18 @@ Global
 		{FEEC6ABF-BF7C-4BD2-B691-C348A7B25E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEEC6ABF-BF7C-4BD2-B691-C348A7B25E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEEC6ABF-BF7C-4BD2-B691-C348A7B25E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15FD10A3-2D7E-49C4-ACC9-F90CFFB48281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FD10A3-2D7E-49C4-ACC9-F90CFFB48281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FD10A3-2D7E-49C4-ACC9-F90CFFB48281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FD10A3-2D7E-49C4-ACC9-F90CFFB48281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02300A8A-9FDF-4F22-894E-B0AF40FFDF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02300A8A-9FDF-4F22-894E-B0AF40FFDF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02300A8A-9FDF-4F22-894E-B0AF40FFDF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02300A8A-9FDF-4F22-894E-B0AF40FFDF1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0ECF49E-F638-4729-BBF0-9AA21FF36FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0ECF49E-F638-4729-BBF0-9AA21FF36FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0ECF49E-F638-4729-BBF0-9AA21FF36FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0ECF49E-F638-4729-BBF0-9AA21FF36FE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +102,9 @@ Global
 		{EF6E275F-A911-4F7E-813F-E21525550813} = {E8DAB8A7-3B01-49FE-9E3F-C80904215D90}
 		{9A826779-1BC1-4EEE-B3A9-55A96F5C05E3} = {E8DAB8A7-3B01-49FE-9E3F-C80904215D90}
 		{FEEC6ABF-BF7C-4BD2-B691-C348A7B25E28} = {E8DAB8A7-3B01-49FE-9E3F-C80904215D90}
+		{15FD10A3-2D7E-49C4-ACC9-F90CFFB48281} = {C7203BBE-AC2D-4070-B4A9-3C831B09B46D}
+		{02300A8A-9FDF-4F22-894E-B0AF40FFDF1E} = {B145FCFD-3C64-4D8A-8A9C-DEC4FF1913AD}
+		{C0ECF49E-F638-4729-BBF0-9AA21FF36FE3} = {B145FCFD-3C64-4D8A-8A9C-DEC4FF1913AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9CB88C45-069F-474E-8C20-EF388ABC85EC}
