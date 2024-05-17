@@ -8,7 +8,7 @@ namespace SdA.Games.RPG.Tests
         public void ShouldDisplayTwoCharsWithTwoCells()
         {
             // Arrange
-            Grid grid = new Grid();
+            Grid grid = new Grid(10, 10);
             grid.Add(new Cell());
             grid.Add(new Cell());
 

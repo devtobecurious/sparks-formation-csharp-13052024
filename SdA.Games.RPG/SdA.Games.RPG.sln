@@ -29,19 +29,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculTVA", "CalculTVA\Calc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComptabiliteEssai", "ComptabiliteEssai\ComptabiliteEssai.csproj", "{FEEC6ABF-BF7C-4BD2-B691-C348A7B25E28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.RPG.Core.Presentations", "SdA.Games.RPG.Core.Presentations\SdA.Games.RPG.Core.Presentations.csproj", "{15FD10A3-2D7E-49C4-ACC9-F90CFFB48281}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.RPG.Core.Presentations", "SdA.Games.RPG.Core.Presentations\SdA.Games.RPG.Core.Presentations.csproj", "{15FD10A3-2D7E-49C4-ACC9-F90CFFB48281}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.RPG.Tests", "SdA.Games.RPG.Tests\SdA.Games.RPG.Tests.csproj", "{02300A8A-9FDF-4F22-894E-B0AF40FFDF1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.RPG.Tests", "SdA.Games.RPG.Tests\SdA.Games.RPG.Tests.csproj", "{02300A8A-9FDF-4F22-894E-B0AF40FFDF1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.RPG.Consoles.UI", "SdA.Games.RPG.Consoles.UI\SdA.Games.RPG.Consoles.UI.csproj", "{C0ECF49E-F638-4729-BBF0-9AA21FF36FE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.RPG.Consoles.UI", "SdA.Games.RPG.Consoles.UI\SdA.Games.RPG.Consoles.UI.csproj", "{C0ECF49E-F638-4729-BBF0-9AA21FF36FE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouverteEvenements_ADeveloperStory", "DecouverteEvenements_ADeveloperStory\DecouverteEvenements_ADeveloperStory.csproj", "{531B8CA0-C202-4FAB-8B3B-BAE1B1B4EB6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecouverteEvenements_ADeveloperStory", "DecouverteEvenements_ADeveloperStory\DecouverteEvenements_ADeveloperStory.csproj", "{531B8CA0-C202-4FAB-8B3B-BAE1B1B4EB6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{EAB1D5F9-C6E8-440F-B1D4-A886153A892C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{EAB1D5F9-C6E8-440F-B1D4-A886153A892C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGame", "TestGame\TestGame.csproj", "{21A5CF2C-1410-4E7F-BF55-988F8F700F6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestGame", "TestGame\TestGame.csproj", "{21A5CF2C-1410-4E7F-BF55-988F8F700F6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.RPG.Core.Games", "SdA.Games.RPG.Core.Games\SdA.Games.RPG.Core.Games.csproj", "{001DF875-6A59-4885-AB8D-23484DC0A564}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.RPG.Core.Games", "SdA.Games.RPG.Core.Games\SdA.Games.RPG.Core.Games.csproj", "{001DF875-6A59-4885-AB8D-23484DC0A564}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecouverteEfCore", "DecouverteEfCore\DecouverteEfCore.csproj", "{B5F1C6D5-F388-4E24-8FBC-B303CDBC0500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.RPG.Core.Services", "SdA.Games.RPG.Core.Services\SdA.Games.RPG.Core.Services.csproj", "{041AE5A0-7AFE-40EB-8ACF-36E6E8481B57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.RPG.Core.Services.Interfaces", "SdA.Games.RPG.Core.Services.Interfaces\SdA.Games.RPG.Core.Services.Interfaces.csproj", "{D0B77A4A-5140-48BC-8ECB-9BD7E8EC2ADD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +119,18 @@ Global
 		{001DF875-6A59-4885-AB8D-23484DC0A564}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{001DF875-6A59-4885-AB8D-23484DC0A564}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{001DF875-6A59-4885-AB8D-23484DC0A564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F1C6D5-F388-4E24-8FBC-B303CDBC0500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F1C6D5-F388-4E24-8FBC-B303CDBC0500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F1C6D5-F388-4E24-8FBC-B303CDBC0500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F1C6D5-F388-4E24-8FBC-B303CDBC0500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041AE5A0-7AFE-40EB-8ACF-36E6E8481B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041AE5A0-7AFE-40EB-8ACF-36E6E8481B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041AE5A0-7AFE-40EB-8ACF-36E6E8481B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041AE5A0-7AFE-40EB-8ACF-36E6E8481B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B77A4A-5140-48BC-8ECB-9BD7E8EC2ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B77A4A-5140-48BC-8ECB-9BD7E8EC2ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B77A4A-5140-48BC-8ECB-9BD7E8EC2ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B77A4A-5140-48BC-8ECB-9BD7E8EC2ADD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -133,6 +151,9 @@ Global
 		{EAB1D5F9-C6E8-440F-B1D4-A886153A892C} = {E8DAB8A7-3B01-49FE-9E3F-C80904215D90}
 		{21A5CF2C-1410-4E7F-BF55-988F8F700F6E} = {B145FCFD-3C64-4D8A-8A9C-DEC4FF1913AD}
 		{001DF875-6A59-4885-AB8D-23484DC0A564} = {C7203BBE-AC2D-4070-B4A9-3C831B09B46D}
+		{B5F1C6D5-F388-4E24-8FBC-B303CDBC0500} = {E8DAB8A7-3B01-49FE-9E3F-C80904215D90}
+		{041AE5A0-7AFE-40EB-8ACF-36E6E8481B57} = {C7203BBE-AC2D-4070-B4A9-3C831B09B46D}
+		{D0B77A4A-5140-48BC-8ECB-9BD7E8EC2ADD} = {C7203BBE-AC2D-4070-B4A9-3C831B09B46D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9CB88C45-069F-474E-8C20-EF388ABC85EC}
